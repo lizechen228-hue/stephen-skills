@@ -1,0 +1,4 @@
+interface:
+  display_name: "AVM 确认式回答"
+  short_description: "用 AVM 框架先确认角色、目标用途与方法，再生成正式答复"
+  default_prompt: "使用 $avm 先和我确认 A、V、M，再根据确认结果回答这个问题。"
