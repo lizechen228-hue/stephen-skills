@@ -15,13 +15,13 @@
 - Skill 目录：https://github.com/lizechen228-hue/stephen-skills/tree/main/skills/ai-meeting-minutes
 - 触发方式：`AI会议纪要`、`帮我总结纪要云文档`、`整理一下昨天的会`、`分析或诊断这场会议` 或 `$ai-meeting-minutes`
 
-复制下面整段发给 Codex 或其他支持 Skill 的 Agent：
+复制下面一整行发给豆包、Codex、Claude 或其他 Agent：
 
 ```text
-请使用 $skill-installer 安装这个 Skill：https://github.com/lizechen228-hue/stephen-skills/tree/main/skills/ai-meeting-minutes
+请安装或学习并使用这个「AI会议纪要」Skill：支持 $skill-installer 时直接安装；不支持时请读取目录内的 SKILL.md、references 和 assets 后遵循执行。https://github.com/lizechen228-hue/stephen-skills/tree/main/skills/ai-meeting-minutes
 ```
 
-安装完成后，该 Skill 会在下一轮对话中生效。
+这个 GitHub 目录是唯一公开入口：支持 Skill 安装的 Agent 直接安装；不支持安装机制的 Agent 读取目录内容后按方法执行。
 
 ### AVM｜确认式回答
 
