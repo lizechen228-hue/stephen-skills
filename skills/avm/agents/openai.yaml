@@ -1,4 +1,6 @@
 interface:
-  display_name: "AVM 确认式回答"
-  short_description: "用 AVM 框架先确认角色、目标用途与方法，再生成正式答复"
-  default_prompt: "使用 $avm 先和我确认 A、V、M，再根据确认结果回答这个问题。"
+  display_name: "AVM 确认式任务协议"
+  short_description: "先确认角色、目标用途与方法，再按任务协议正式作答"
+  default_prompt: "使用 $avm 先把我的请求整理成 A、V、M 确认卡；等我确认后再正式回答。"
+policy:
+  allow_implicit_invocation: true
