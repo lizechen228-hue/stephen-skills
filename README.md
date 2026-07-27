@@ -23,6 +23,21 @@
 
 这个 GitHub 目录是唯一公开入口：支持 Skill 安装的 Agent 直接安装；不支持安装机制的 Agent 读取目录内容后按方法执行。
 
+### Stephen 圆桌｜开放探索与圆桌求真
+
+让思想发生碰撞，让碰撞相互启发，让启发形成共识，让共识形成决策。默认不限轮数地探索；用户说“圆桌求真”后，才对关键命题进行证据审判，保留真实分歧并形成暂时最优判断。
+
+- Skill 目录：https://github.com/lizechen228-hue/stephen-skills/tree/main/skills/stephen-roundtable
+- 触发方式：`圆桌讨论`、`发起或继续圆桌`、`组织几位专家讨论`、`圆桌求真` 或 `$stephen-roundtable`
+
+复制下面一整行发给豆包、Codex、Claude 或其他 Agent：
+
+```text
+请安装或学习并使用这个「Stephen 圆桌」Skill：支持 $skill-installer 时直接安装；不支持时请读取目录内的 SKILL.md 和 references 后遵循执行。https://github.com/lizechen228-hue/stephen-skills/tree/main/skills/stephen-roundtable
+```
+
+这个 GitHub 目录是唯一公开入口。真实人物必须与议题直接相关；无法核验的发言须标注为思想体系推演。何时从探索转向求真，由用户决定。
+
 ### AVM｜确认式回答
 
 在正式回答前，先确认 Agent（角色与背景）、Value（结果与用途）和 Method（结构、步骤与判断标准）。
