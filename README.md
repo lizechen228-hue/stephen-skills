@@ -4,7 +4,7 @@
 
 ## 使用约定
 
-每个 Skill 只提供一个 GitHub 目录链接作为学习与安装的唯一主入口。复制对应 Skill 下方的整段文字发给 Agent 即可；飞书文档只作为说明页，不作为第二个安装入口。
+每个 Skill 只提供一个 GitHub 目录链接作为学习与安装的唯一主入口。复制对应 Skill 下方的整段文字发给 Agent 即可；飞书文档作为完整方法论与使用说明。
 
 ## Skill 索引
 
@@ -38,18 +38,17 @@
 
 这个 GitHub 目录是唯一公开入口。真实人物必须与议题直接相关；无法核验的发言须标注为思想体系推演。何时从探索转向求真，由用户决定。
 
-### AVM｜确认式回答
+### AVM｜确认式任务协议
 
-在正式回答前，先确认 Agent（角色与背景）、Value（结果与用途）和 Method（结构、步骤与判断标准）。
+把模糊请求转化为双方确认的任务协议，再执行任务。A 定义角色与知识视角；V 定义对象、结果、使用者与用途；M 定义步骤、输出结构、判断标准与验收方式。
 
 - Skill 目录：https://github.com/lizechen228-hue/stephen-skills/tree/main/skills/avm
-- 触发方式：`按照 AVM 答复`、`用 AVM`、`AVM 模式` 或 `$avm`
+- 触发方式：`按照 AVM 答复`、`用 AVM`、`AVM 模式`、`先按 AVM 确认` 或 `$avm`
 
-复制下面整段发给 Codex：
+复制下面整句话发给 Codex：
 
 ```text
-请使用 $skill-installer 安装这个 Skill：
-https://github.com/lizechen228-hue/stephen-skills/tree/main/skills/avm
+请使用 $skill-installer 安装这个 Skill：https://github.com/lizechen228-hue/stephen-skills/tree/main/skills/avm
 ```
 
-安装完成后，该 Skill 会在下一轮对话中生效。
+Codex 支持从这个 GitHub 目录原生安装。Aily SkillHub 当前未上架 AVM，因此在 SkillHub 搜不到安装包是正常现象；可先把 `SKILL.md` 全文放入 agent 知识或系统提示，并以“按照 AVM 答复”“用 AVM”作为语义触发。若要获得 Aily 原生 SkillHub 触发，需要在后台提交上架申请。
