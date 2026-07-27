@@ -1,4 +1,4 @@
 interface:
   display_name: "AI会议纪要"
-  short_description: "证据化复盘会议，并衔接决策、行动与下一轮迭代"
-  default_prompt: "使用 $ai-meeting-minutes 复盘这场会议，生成精炼、有证据、可执行的纪要；必要时另行生成决策推进稿，并明确下一轮复盘与迭代条件。"
+  short_description: "把会议证据压缩成关键判断、决策状态和行动"
+  default_prompt: "使用 $ai-meeting-minutes 生成精炼、有证据、可执行的会议纪要，不要复述逐字稿或把 AI 建议写成会议共识。"
