@@ -38,6 +38,21 @@
 
 这个 GitHub 目录是唯一公开入口。真实人物必须与议题直接相关；无法核验的发言须标注为思想体系推演。何时从探索转向求真，由用户决定。
 
+### Stephen 精读｜书籍、播客与视频
+
+以证据还原表达者，以反方校准观点，以现实检验判断，以记忆形成复利。支持书籍、播客和视频三条内容路由，形成可回溯的原文或原话金句、精读笔记、个人校准、行动实验和长期记忆。
+
+- Skill 目录：https://github.com/lizechen228-hue/stephen-skills/tree/main/skills/stephen-deep-read
+- 触发方式：`把这本书精读一下`、`把这个播客细听一下`、`把这个视频精读一下`、`细看一下`、`精度一下` 或 `$stephen-deep-read`
+
+复制下面一整行发给豆包、Codex、Claude 或其他 Agent：
+
+```text
+请安装或学习并使用这个「Stephen 精读」Skill：支持 $skill-installer 时直接安装；不支持时请读取目录内的 SKILL.md、references 和 assets 后遵循执行。https://github.com/lizechen228-hue/stephen-skills/tree/main/skills/stephen-deep-read
+```
+
+这个 GitHub 目录是唯一公开入口。书籍沿论证单元和页码，播客沿对话语义段和时间码，视频沿语义镜头和时间码；三类内容共享同一套证据、金句、校验、行动与记忆闭环。
+
 ### AVM｜确认式任务协议
 
 把模糊请求转化为双方确认的任务协议，再执行任务。A 定义角色与知识视角；V 定义对象、结果、使用者与用途；M 定义步骤、输出结构、判断标准与验收方式。
