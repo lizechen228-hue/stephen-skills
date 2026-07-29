@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stephen 精读"
+  short_description: "证据化精读书籍、播客与视频，形成个人判断、行动与长期记忆"
+  default_prompt: "使用 $stephen-deep-read 精读这本书、播客或视频，并形成可核验、可行动、可记忆的笔记。"
