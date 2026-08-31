@@ -1,0 +1,4 @@
+interface:
+  display_name: "孙哥写作"
+  short_description: "以尺度差、冷叙述、账单细节和物件回环写出高张力故事"
+  default_prompt: "Use $sunge-writing to turn this material into a restrained, high-tension narrative."
